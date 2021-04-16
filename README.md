@@ -57,7 +57,7 @@
 
 <h3>Design Responsivo</h3>
 <ul>
-  <li>Layout Fluído/li>
+  <li>Layout Fluído</li>
 </ul>
 
 <hr>
