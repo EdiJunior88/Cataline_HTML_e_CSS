@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  <p>Formulário de login</p>
+
+  <form>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Senha">
+    <button type="button">Login</button>
+  </form>
+
+  <p>Formulário de contato simples</p>
+  <form>
+    <input type="text" placeholder="Nome" required> <br>
+    <input type="text" placeholder="Gênero"> <br>
+    <input type="text" placeholder="Assunto"> <br>
+    <textarea placeholder="Mensagem" rows="5"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p>Formulário de contato complexo</p>
+  <form>
+    <input type="text" placeholder="Nome" required> <br>
+    <input type="radio" name="genero"> Masculino <br>
+    <input type="radio" name="genero"> Feminino <br>
+    <select>
+      <option>Sugestão</option>
+      <option>Reclamação</option>
+      <option>Suporte</option>
+    </select> <br>
+    <textarea placeholder="Mensagen" rows="5" required></textarea> <br>
+    <input type="file"> <br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
