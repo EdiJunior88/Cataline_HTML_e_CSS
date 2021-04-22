@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de exibição</title>
+  <style>
+    /*
+      Display
+
+      inline - Exibe um elemento como um elemento embutido. Quaisquer propriedades de altura e largura não terão efeito.
+
+      block - Exibe um elemento como um elemento de bloco. Começa em uma nova linha e ocupa toda a largura.
+
+      inline-block - Exibe um elemento como um contêiner de bloco em nível de linha. O próprio elemento é formatado como um elemento embutido, mas você poded aplicar vários valores de altura e largura.    
+    */
+
+    body {
+      font-size: 50px;
+    }
+
+    h1 {
+      display: inline;
+      background: blue;
+      width: 500px;
+      height: 500px;
+    }
+
+    span {
+      display: block;
+      background: blueviolet;
+      height: 150px;
+    } 
+
+    span {
+      display: inline-block;
+      background: chocolate;
+      width: 280px;
+      height: 200px;
+    }
+
+    span {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+    <h1>HTML</h1>
+    <h1>CSS</h1> 
+
+    <span>HTML</span>
+    <span>CSS</span>
+
+</body>
+</html>
